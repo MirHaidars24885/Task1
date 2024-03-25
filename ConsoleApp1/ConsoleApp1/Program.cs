@@ -14,10 +14,10 @@ int [] Mir = { 1,2,3,4,5,6};
 static void AverageCalculator(int[] Mir)
 {
     double sum = 0;
+
     foreach (var k in Mir)
     {
         sum += k;
-
     }
 
     Console.WriteLine(sum / Mir.Length);
